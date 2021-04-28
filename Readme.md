@@ -73,12 +73,12 @@ var randomNumber4 = (min, max) => {
 ## String
 #### Examples
 //// Truncate the text
-var truncate1 = (str, num) => {
+var truncate1 = (str, num) => { <br />
   if (num > str.length) { <br />
-    return str;
+    return str; <br />
   } <br />
-  let newStr = str.slice(0, num) + "...";
-  console.log(newStr);
+  let newStr = str.slice(0, num) + "..."; <br />
+  console.log(newStr); <br />
 };
 ## Getting Started
 For running these project you need 
