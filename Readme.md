@@ -72,7 +72,7 @@ var randomNumber4 = (min, max) => {
 }; 
 ## String
 #### Examples
-//// Truncate the text
+//// Truncate the text <br />
 var truncate1 = (str, num) => { <br />
   if (num > str.length) { <br />
     return str; <br />
